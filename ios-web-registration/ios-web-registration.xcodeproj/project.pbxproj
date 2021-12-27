@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19072CD2220B05E4003E98BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19072CD1220B05E4003E98BD /* AppDelegate.swift */; };
+		19072CD4220B05E4003E98BD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19072CD3220B05E4003E98BD /* MainViewController.swift */; };
+		19072CD7220B05E4003E98BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19072CD5220B05E4003E98BD /* Main.storyboard */; };
+		19072CD9220B05F0003E98BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19072CD8220B05F0003E98BD /* Assets.xcassets */; };
+		19072CDC220B05F0003E98BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19072CDA220B05F0003E98BD /* LaunchScreen.storyboard */; };
+		A456BFA6840C110D22805488 /* Pods_ios_web_registration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FBA41900385D870BD024EF /* Pods_ios_web_registration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19072CCE220B05E3003E98BD /* ios-web-registration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-web-registration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19072CD1220B05E4003E98BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19072CD3220B05E4003E98BD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		19072CD6220B05E4003E98BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19072CD8220B05F0003E98BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19072CDB220B05F0003E98BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19072CDD220B05F0003E98BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3467133EEBF274714EFD1792 /* Pods-ios-web-registration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-web-registration.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-web-registration/Pods-ios-web-registration.release.xcconfig"; sourceTree = "<group>"; };
+		8E6BF694B7203A14772D4476 /* Pods-ios-web-registration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-web-registration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-web-registration/Pods-ios-web-registration.debug.xcconfig"; sourceTree = "<group>"; };
+		C8FBA41900385D870BD024EF /* Pods_ios_web_registration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_web_registration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19072CCB220B05E3003E98BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A456BFA6840C110D22805488 /* Pods_ios_web_registration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19072CC5220B05E3003E98BD = {
+			isa = PBXGroup;
+			children = (
+				19072CD0220B05E3003E98BD /* ios-web-registration */,
+				19072CCF220B05E3003E98BD /* Products */,
+				9D673C37D9E7FE0470E61419 /* Pods */,
+				448612A5F3275C062E1BB212 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		19072CCF220B05E3003E98BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19072CCE220B05E3003E98BD /* ios-web-registration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19072CD0220B05E3003E98BD /* ios-web-registration */ = {
+			isa = PBXGroup;
+			children = (
+				19072CD1220B05E4003E98BD /* AppDelegate.swift */,
+				19072CD3220B05E4003E98BD /* MainViewController.swift */,
+				19072CD5220B05E4003E98BD /* Main.storyboard */,
+				19072CD8220B05F0003E98BD /* Assets.xcassets */,
+				19072CDA220B05F0003E98BD /* LaunchScreen.storyboard */,
+				19072CDD220B05F0003E98BD /* Info.plist */,
+			);
+			path = "ios-web-registration";
+			sourceTree = "<group>";
+		};
+		448612A5F3275C062E1BB212 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8FBA41900385D870BD024EF /* Pods_ios_web_registration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D673C37D9E7FE0470E61419 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E6BF694B7203A14772D4476 /* Pods-ios-web-registration.debug.xcconfig */,
+				3467133EEBF274714EFD1792 /* Pods-ios-web-registration.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19072CCD220B05E3003E98BD /* ios-web-registration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19072CE0220B05F0003E98BD /* Build configuration list for PBXNativeTarget "ios-web-registration" */;
+			buildPhases = (
+				F44D1C2D6BE607AE22E8C304 /* [CP] Check Pods Manifest.lock */,
+				19072CCA220B05E3003E98BD /* Sources */,
+				19072CCB220B05E3003E98BD /* Frameworks */,
+				19072CCC220B05E3003E98BD /* Resources */,
+				F11285187EBC5C02BC5EA5F8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-web-registration";
+			productName = "ios-web-registration";
+			productReference = 19072CCE220B05E3003E98BD /* ios-web-registration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19072CC6220B05E3003E98BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "MI Apps";
+				TargetAttributes = {
+					19072CCD220B05E3003E98BD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 19072CC9220B05E3003E98BD /* Build configuration list for PBXProject "ios-web-registration" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19072CC5220B05E3003E98BD;
+			productRefGroup = 19072CCF220B05E3003E98BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19072CCD220B05E3003E98BD /* ios-web-registration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19072CCC220B05E3003E98BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19072CDC220B05F0003E98BD /* LaunchScreen.storyboard in Resources */,
+				19072CD9220B05F0003E98BD /* Assets.xcassets in Resources */,
+				19072CD7220B05E4003E98BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F11285187EBC5C02BC5EA5F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ios-web-registration/Pods-ios-web-registration-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-web-registration/Pods-ios-web-registration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F44D1C2D6BE607AE22E8C304 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-web-registration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19072CCA220B05E3003E98BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19072CD4220B05E4003E98BD /* MainViewController.swift in Sources */,
+				19072CD2220B05E4003E98BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19072CD5220B05E4003E98BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19072CD6220B05E4003E98BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19072CDA220B05F0003E98BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19072CDB220B05F0003E98BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19072CDE220B05F0003E98BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19072CDF220B05F0003E98BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19072CE1220B05F0003E98BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6BF694B7203A14772D4476 /* Pods-ios-web-registration.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WY7K834X3;
+				INFOPLIST_FILE = "ios-web-registration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-web-registration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19072CE2220B05F0003E98BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3467133EEBF274714EFD1792 /* Pods-ios-web-registration.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WY7K834X3;
+				INFOPLIST_FILE = "ios-web-registration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-web-registration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19072CC9220B05E3003E98BD /* Build configuration list for PBXProject "ios-web-registration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19072CDE220B05F0003E98BD /* Debug */,
+				19072CDF220B05F0003E98BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19072CE0220B05F0003E98BD /* Build configuration list for PBXNativeTarget "ios-web-registration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19072CE1220B05F0003E98BD /* Debug */,
+				19072CE2220B05F0003E98BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19072CC6220B05E3003E98BD /* Project object */;
+}
